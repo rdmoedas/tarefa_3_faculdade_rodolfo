@@ -20,7 +20,7 @@ from mysql.connector import Error
 ## ! Ela recebe uma query e retorna o resultado dessa query.
 ## Função baseada nesse exemplo: https://pynative.com/python-mysql-database-connection/
 def dados_cidades_parana(query):
-    records = '';
+    records = ''
     try:
         connection = mysql.connector.connect(
             host='ADICIONAR_O_ENDEREÇO_DO_HOST',
